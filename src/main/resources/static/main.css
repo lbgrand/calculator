@@ -10,6 +10,7 @@ body {
 }
 
 .card {
+  position: relative;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: auto;
@@ -23,13 +24,13 @@ body {
 }
 
 .calc-area {
-  position: relative;
-  margin: auto;
+  text-align: center;
   display: block;
 }
 
 .compute-btn-area {
-  margin: auto;
+  margin-top: 20px;
+  text-align: center;
   display: block;
 }
 
@@ -52,12 +53,11 @@ body {
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
   word-wrap: break-word;
-  max-width: 150px;
+  max-width: 180px;
 }
 
 .button:hover {
@@ -84,9 +84,5 @@ body {
 }
 
 .button:before {
-  display: none;
-}
-
-.button:-webkit-details-marker {
   display: none;
 }
